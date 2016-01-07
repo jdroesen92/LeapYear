@@ -1,4 +1,4 @@
-#CarJan 07-01-2016
+#CarJan Jan Droesen and Careli Caballero, 07-01-2016
 
 #function to check whether a year is a leap year
 leapyear  <- function(year) {
