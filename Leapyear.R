@@ -1,8 +1,5 @@
 source('R/Function_leapyear.R')
-library(lubridate)
-leapyear(01/01/1992)
-class(01-01-1992)
-class(as.Date("2009-08-03"))
-leapyear(as.Date("08-03-2019"))
-leapyear(-9)
-leapyear(2002)
+#run function
+leapyear(1992)
+
+
