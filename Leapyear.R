@@ -1,11 +1,11 @@
 #function to check whether a year is a leap year
 
 leap_year  <- function(year) {
-	if is.integer(year)!=TRUE
+	if is.numeric(year)!=TRUE
 	
-	return("return data type is not correct")
+		return("return data type is not correct")
 	
-		if is.integer((year/4)%%0!=TRUE)
+		if ((year/4)%%0)!=TRUE)
 		return("Common year")
 				ifelse is.integer ((year/100)!=TRUE)
 				return ("Leap year")
@@ -15,10 +15,7 @@ leap_year  <- function(year) {
 							return("Leap year")
 	
 }
+test test
 
-is.integer(55)
-is.integer(0.5)
-is.integer("5")
-a <- 5
-check.integer(5)
-int.check(5)
+
+
